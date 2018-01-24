@@ -123,6 +123,103 @@ hr {
 
 }
 
+/* RENOVATION */
+
+
+
+/* PHOTOS ET REALISATIONS */
+.realisationbg {
+  background-color: #E5E5E3;
+}
+.gallery {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #7F7F7E;
+    border-radius: 5px;
+    text-align: center;
+    color: #527975;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #7F7F7E;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #7F7F7E;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+// Zoom css beautiful
+.single-portfolio a::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 365px;
+  opacity: 0;
+
+  top: 0;
+  transform: scale(0.5);
+  transition: all 0.3s ease 0s;
+  width: 365px;
+}
+.single-portfolio:hover a::before {
+	opacity: .5;
+	transform: scale(1);
+}
+.single-portfolio a::after {
+  color: #fff;
+  content: "+";
+  font-size: 60px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+.single-portfolio:hover a::after {
+	transform: scale(1);
+}
 /* CONTACT */
 .messages {
   padding-top: 20px;
