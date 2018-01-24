@@ -1,17 +1,133 @@
-#home {
-  background-color: #D23333;
+p {
+  font-family: 'Roboto Slab', serif;
+  margin:0px!important;
+}
+// CLASS
+.fontcolor1{
+  color: #527975!important;
+}
+.paddingtop {
+  padding-top: 10px;
+}
+.paddingleft {
+  padding-left: 10px;
+}
+.paddingbottom {
+  padding-bottom: 15px;
+}
+.radiantbg {
+
+}
+.topfont {
+  font-size: 12px;
+}
+
+
+.pageposition {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+
+}
+.row {
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px!important;
+}
+.pageposition p , h2, label {
+
+}
+h1 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+
+}
+body h2 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+
+
+
+.presentation {
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.features {
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.about {
+  margin-bottom: 10%;
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+}
+
+.about-text {
+  margin-top: 5%;
+}
+
+.values {
+  width: 100%;
+  height: 200px;
+  background-color: #000C22;
   color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+  padding: 25px;
+  margin-bottom: 10%;
+  vertical-align: middle;
+  padding-top: 50px;
+}
+
+.value-image {
+
+}
+
+/* COUVERTURE */
+.couvertureimg {
+  height: 400px;
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px grey;
+  margin-top: 15px;
+}
+.couvertureimg2 {
+  height: 400px;
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px grey;
+  margin-left:  10px;
+  margin-top: 15px;
+}
+.couverture {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+hr {
+
+    width: 25%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
+/* CONTACT */
+.messages {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.controls {
+  padding-bottom: 10px;
 }
