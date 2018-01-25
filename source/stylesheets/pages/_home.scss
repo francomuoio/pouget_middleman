@@ -26,13 +26,14 @@ p {
 .pageposition {
   padding-left: 0px !important;
   padding-right: 0px !important;
+  margin-left: -13px!important;
 
 
 }
 .row {
   margin-right: 0px;
   padding-left: 0px;
-  margin-left: 0px!important;
+  margin-left: 0px;
 }
 .pageposition p , h2, label {
 
@@ -114,12 +115,13 @@ hr {
 
     width: 25%;
     display: block;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
+
 
 }
 
@@ -136,6 +138,7 @@ hr {
   padding-top: 50px;
 }
 
+
 .gallery-title
 {
     font-size: 36px;
@@ -143,15 +146,10 @@ hr {
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
+
 }
-.gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
-}
+
+
 .filter-button
 {
     font-size: 18px;
@@ -188,38 +186,6 @@ hr {
     margin-bottom: 30px;
 }
 
-
-// Zoom css beautiful
-.single-portfolio a::before {
-  background: #000 none repeat scroll 0 0;
-  content: "";
-  height: 365px;
-  opacity: 0;
-
-  top: 0;
-  transform: scale(0.5);
-  transition: all 0.3s ease 0s;
-  width: 365px;
-}
-.single-portfolio:hover a::before {
-	opacity: .5;
-	transform: scale(1);
-}
-.single-portfolio a::after {
-  color: #fff;
-  content: "+";
-  font-size: 60px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 50%;
-  transform: scale(0);
-  transition: all 0.3s ease 0s;
-}
-.single-portfolio:hover a::after {
-	transform: scale(1);
-}
 /* CONTACT */
 .messages {
   padding-top: 20px;
