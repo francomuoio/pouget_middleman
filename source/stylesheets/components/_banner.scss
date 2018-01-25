@@ -21,17 +21,27 @@
   color: white;
 }
 .contactbg {
-  background: image-url('contact-background2.jpg') top left/cover no-repeat;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
+
   color: black;
-  height: 400px;
-  padding-top: 100px;
-  max-width: 100%;
+  height: 600px;
+
   background-position: center;
+  width: 100%;
+  z-index: -1;
+  -webkit-filter: blur(8px); /* Safari 6.0 - 9.0 */
+  filter: blur(8px);
 
 }
+.contentbg {
+  position: absolute;
+  top: 250px;
+  font-size: 24px;
+  color:  black ;
+  left: 10px;
+  font-weight: bolder;
+}
+
+
 .gmaps {
   margin-bottom: -6px;
   padding-bottom: 0px;
