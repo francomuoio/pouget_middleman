@@ -4,10 +4,13 @@ p {
 }
 // CLASS
 .fontcolor1{
-  color: #527975!important;
+  color: #003d3e!important;
+}
+.marginbottom {
+  margin-bottom: 15px;
 }
 .paddingtop {
-  padding-top: 10px;
+  padding-top: 12px;
 }
 .paddingleft {
   padding-left: 10px;
@@ -166,14 +169,14 @@ hr {
     border: 1px solid #7F7F7E;
     border-radius: 5px;
     text-align: center;
-    color: #ffffff;
-    background-color: #7F7F7E;
+    color: #006768;
+    background-color: #BFBFBD;
 
 }
 .btn-default:active .filter-button:active
 {
     background-color: #42B32F;
-    color: white;
+    color: #006768;
 }
 
 .port-image
