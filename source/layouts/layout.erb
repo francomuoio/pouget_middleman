@@ -11,13 +11,16 @@
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
   </head>
-  <body class="row">
+  <body>
     <div class="col-md-2 navposition">
       <%= partial "layouts/navbar"%>
     </div>
-    <div class="col-md-10">
-      <%= yield %>
-      <%= partial "layouts/footer"%>
+    <div class="gridpage">
+      <div class="gridcontent">
+        <%= yield %>
+        <%= partial "layouts/footer"%>
+      </div>
+
     </div>
   </body>
 </html>
