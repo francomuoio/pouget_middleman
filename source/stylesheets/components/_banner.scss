@@ -28,13 +28,9 @@
   background-position: center;
   width: 100%;
   z-index: -1;
-  -webkit-filter: blur(8px); /* Safari 6.0 - 9.0 */
-  filter: blur(8px);
 
 }
 .contentbg {
-  position: absolute;
-  top: 250px;
   font-size: 24px;
   color:  black ;
   left: 10px;
