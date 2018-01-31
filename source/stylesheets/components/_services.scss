@@ -1,0 +1,51 @@
+.services {
+  height: 200px;
+
+}
+.services h4 {
+  vertical-align: center;
+}
+.servicecouverture {
+  background: image-url('couverture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+
+}
+.servicerenovation {
+  background: image-url('after.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+.servicebardage {
+  background: image-url('bardage2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  vertical-align: center;
+}
+.servicechauffage {
+  background: image-url('chauffage1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  vertical-align: center;
+}
+.serviceextention {
+  background: image-url('extension1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  vertical-align: center;
+}
+.serviceplomberie {
+  background: image-url('plomberie1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  vertical-align: center;
+}
