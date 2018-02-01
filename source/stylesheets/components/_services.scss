@@ -1,6 +1,6 @@
 .services {
   height: 200px;
-
+  padding: 10px;
 }
 .services h4 {
   vertical-align: center;
@@ -10,7 +10,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-
+  grid-area: servicecouverture;
 
 }
 .servicerenovation {
@@ -18,7 +18,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-
+  grid-area: servicerenovation;
 }
 
 .servicebardage {
@@ -27,6 +27,7 @@
   background-repeat: no-repeat;
   text-align: center;
   vertical-align: center;
+  grid-area: servicebardage;
 }
 .servicechauffage {
   background: image-url('chauffage1.png');
@@ -34,6 +35,7 @@
   background-repeat: no-repeat;
   text-align: center;
   vertical-align: center;
+  grid-area: servicechauffage;
 }
 .serviceextention {
   background: image-url('extension1.png');
@@ -41,6 +43,7 @@
   background-repeat: no-repeat;
   text-align: center;
   vertical-align: center;
+  grid-area: serviceextention;
 }
 .serviceplomberie {
   background: image-url('plomberie1.png');
@@ -48,4 +51,16 @@
   background-repeat: no-repeat;
   text-align: center;
   vertical-align: center;
+  grid-area: serviceplomberie;
+}
+.servicesgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "servicecouverture servicerenovation"
+  "servicebardage servicechauffage"
+  "serviceextention serviceplomberie";
+  grid-gap: 10px;
+  background-color: #BFBFBD;
 }

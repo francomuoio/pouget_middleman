@@ -116,15 +116,14 @@ vertical-align: middle;
 @media only screen and (max-width: 1080px){
   nav ul {
   position: relative;
-	display: flex;
-	flex-wrap: wrap;
+
 	max-width: 1080px;
 	margin: 0 auto;
   background: #999;
 }
 nav ul,
 nav li {
-	flex: 1;
+
 }
 nav li:last-child {
    border-bottom: none;
@@ -158,7 +157,7 @@ nav label {
 	border-radius: 2px;
 }
 nav label {
-   position: relative;
+   position: absolute;
    top: 8px;
    right: 8px;
    transition: .4s;
@@ -171,7 +170,11 @@ nav label:before {
 	text-align: center;
 }
    nav {
-      position: relative!important;
+      position: relative;
+
+      width: 100%;
+      
+
    }
 	nav ul {
 		transform: translateY(0);
@@ -181,9 +184,10 @@ nav label:before {
       width: 100%;
 	}
 	nav li {
-		flex: none;
+
 		width: 100%;
 		border-bottom: solid 1px #777;
+  list-style-type: none;
 	}
 	nav input[type="checkbox"]:checked + ul  {
 		transform: translateY(-100%);
