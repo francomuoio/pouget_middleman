@@ -1,3 +1,4 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 .navposition {
   padding-right: 0px !important;
 }
@@ -101,7 +102,7 @@ vertical-align: middle;
  grid-column-start: 2;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1080px) {
   #navbar {
     display: none;
   }
@@ -112,72 +113,93 @@ vertical-align: middle;
 .responsivenav{
   display: none;
 }
-// HAMBURGER ANIMATION
-
-#nav-icon1  {
-  width: 60px;
-  height: 45px;
+@media only screen and (max-width: 1080px){
+  nav ul {
   position: relative;
-  margin: 50px auto;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
-}
 
-#nav-icon1 a {
-  display: block;
-  position: absolute;
-  height: 9px;
-  width: 100%;
-  background: #d3531a;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+	max-width: 1080px;
+	margin: 0 auto;
+  background: #999;
 }
+nav ul,
+nav li {
 
-#nav-icon1 a:nth-child(1) {
-  top: 0px;
 }
-
-#nav-icon1 a:nth-child(2) {
-  top: 18px;
+nav li:last-child {
+   border-bottom: none;
 }
-
-#nav-icon1 a:nth-child(3) {
-  top: 36px;
+nav a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	font-size: 1.8rem;
 }
-
-#nav-icon1.open a:nth-child(1) {
-  top: 18px;
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
+nav a:hover {
+	background: #adacac;
+	color: #fff;
 }
-
-#nav-icon1.open a:nth-child(2) {
-  opacity: 0;
-  left: -60px;
+nav li {
+	position: relative;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
 }
+nav input,
+nav label {
+	display: none;
+	width: 36px;
+	height: 36px;
+	background: #555;
+	color: #fff;
+	text-align: center;
+	line-height: 36px;
+	font-size: 1.6rem;
+	border-radius: 2px;
+}
+nav label {
+   position: absolute;
+   top: 8px;
+   right: 8px;
+   transition: .4s;
+}
+nav label:hover {cursor:pointer;}
+nav label:before {
+	font-family: FontAwesome;
+	font-size: 24px;
+	content: "\f0c9";
+	text-align: center;
+}
+   nav {
+      position: relative;
 
-#nav-icon1.open a:nth-child(3) {
-  top: 18px;
-  -webkit-transform: rotate(-135deg);
-  -moz-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+      width: 100%;
+      
+
+   }
+	nav ul {
+		transform: translateY(0);
+		box-shadow: 0 0 5px rgba(0,0,0, .7);
+      transition: all .5s;
+      position: relative;
+      width: 100%;
+	}
+	nav li {
+
+		width: 100%;
+		border-bottom: solid 1px #777;
+  list-style-type: none;
+	}
+	nav input[type="checkbox"]:checked + ul  {
+		transform: translateY(-100%);
+		width: 100%;
+		background: #999;
+      transition: all .5s;
+	}
+	nav label{
+      display: block;
+   }
+	nav input[type="checkbox"]:checked + ul li:nth-child(1){
+		background: #777;
+		color: #fff;
+	}
 }
