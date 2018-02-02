@@ -6,6 +6,11 @@ p {
 .fontcolor1{
   color: #003d3e!important;
 }
+
+.margintop {
+  margin-top: 15px;
+}
+
 .marginbottom {
   margin-bottom: 15px;
 }
@@ -18,9 +23,7 @@ p {
 .paddingbottom {
   padding-bottom: 15px;
 }
-.marginbottom {
-  margin-bottom: 15px;
-}
+
 .radiantbg {
 
 }
@@ -204,5 +207,9 @@ hr {
   padding-bottom: 10px;
 }
 .fontsizecontact {
-  font-size: 16px;
+  font-size: 18px;
+}
+
+.contactbg {
+  margin-bottom: 25px !important;
 }
