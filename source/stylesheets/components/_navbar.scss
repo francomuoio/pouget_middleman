@@ -1,4 +1,4 @@
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
 .navposition {
   padding-right: 0px !important;
 }
@@ -102,7 +102,7 @@ vertical-align: middle;
  grid-column-start: 2;
 }
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:990px) {
   #navbar {
     display: none;
   }
@@ -113,7 +113,7 @@ vertical-align: middle;
 .responsivenav{
   display: none;
 }
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 990px){
   nav ul {
   position: relative;
 
